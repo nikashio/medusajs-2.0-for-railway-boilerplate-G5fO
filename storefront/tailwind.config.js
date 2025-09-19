@@ -21,6 +21,39 @@ module.exports = {
         padding: "padding-top padding-right padding-bottom padding-left",
       },
       colors: {
+        // Leather-inspired color palette
+        leather: {
+          50: "#FAF8F6",   // Cream white
+          100: "#F5EFE7",  // Light parchment
+          200: "#E8DDD3",  // Natural tan
+          300: "#D4B5A0",  // Light cognac
+          400: "#B08968",  // Saddle brown
+          500: "#8B6639",  // Rich leather
+          600: "#6B4423",  // Dark walnut
+          700: "#4A2F18",  // Espresso
+          800: "#3A2414",  // Deep mahogany
+          900: "#2A1A0E",  // Charcoal brown
+        },
+        // Accent colors for craftsmanship
+        craft: {
+          gold: "#D4AF37",      // Brass/gold hardware
+          copper: "#B87333",    // Copper accents
+          silver: "#C0C0C0",    // Silver hardware
+          thread: "#F5E6D3",    // Natural thread
+          wax: "#FFE4B5",       // Beeswax finish
+        },
+        // Natural tones
+        sage: {
+          light: "#E8F5E9",
+          DEFAULT: "#8FBC8F",
+          dark: "#556B2F",
+        },
+        stone: {
+          light: "#F5F5F5",
+          DEFAULT: "#9E9E9E",
+          dark: "#616161",
+        },
+        // Keep original greys for compatibility
         grey: {
           0: "#FFFFFF",
           5: "#F9FAFB",
@@ -67,6 +100,16 @@ module.exports = {
           "Roboto",
           "Helvetica Neue",
           "Ubuntu",
+          "sans-serif",
+        ],
+        serif: [
+          "Playfair Display",
+          "Georgia",
+          "serif",
+        ],
+        craft: [
+          "Bebas Neue",
+          "Oswald",
           "sans-serif",
         ],
       },
